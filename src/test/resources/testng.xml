@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Automation Suite" parallel="tests" thread-count="3" verbose="1">
+    <listeners>
+        <listener class-name="com.orangehrm.framework.listeners.RetryTransformer"/>
+    </listeners>
+
+    <test name="Login Test Cases">
+        <classes>
+            <class name="com.orangehrm.framework.tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="PIM Test Cases">
+        <classes>
+            <class name="com.orangehrm.framework.tests.PimTests"/>
+        </classes>
+    </test>
+
+    <test name="Admin Test Cases">
+        <classes>
+            <class name="com.orangehrm.framework.tests.AdminTests"/>
+        </classes>
+    </test>
+
+    <test name="UI Test Cases">
+        <classes>
+            <class name="com.orangehrm.framework.tests.UiTests"/>
+        </classes>
+    </test>
+</suite>

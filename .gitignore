@@ -1,0 +1,17 @@
+# Maven build output
+target/
+# Allure raw results are intentionally not committed
+allure-results/
+# Runtime logs
+logs/*.log
+logs/*.gz
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db

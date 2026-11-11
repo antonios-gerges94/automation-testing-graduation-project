@@ -1,0 +1,28 @@
+{
+  "login": {
+    "valid": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalid": {
+      "username": "InvalidUser_2026",
+      "password": "WrongPassword_2026"
+    }
+  },
+  "employees": {
+    "known": {
+      "searchTerm": ""
+    },
+    "missing": {
+      "searchTerm": "NoSuchEmployee_2026_XYZ"
+    },
+    "new": {
+      "firstName": "QA",
+      "lastName": "Automation"
+    },
+    "requiredFieldValidation": {
+      "firstName": "",
+      "lastName": "Automation"
+    }
+  }
+}
